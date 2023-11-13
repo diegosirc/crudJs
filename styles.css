@@ -1,0 +1,88 @@
+body {
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 { color:white;
+    text-align: center;
+}
+
+#form-container, #students-list {
+    background: #04ffff31; 
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+table{
+    background: #04ffff31;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+label, input {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: limegreen;
+}
+input-group {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.input-group label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.input-group input {
+    display: inline-block;
+    width: 200px;
+}
+
+#form-container {
+    margin-top: 20px;
+}
+
+.btn-yellow {
+    background-color: yellow;
+    color: #000; /* Color de texto en botón amarillo */
+}
+
+.btn-red {
+    background-color: red;
+    color: #fff; /* Color de texto en botón rojo */
+}
